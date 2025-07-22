@@ -4,19 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Counter</title>
+    <link rel="stylesheet" href="styles.css">
+    <audio id="audio1" src="FoodDropPou.mp3"></audio>
+    <audio id= "audio2" src="MorteDeShaka.mp3"></audio>
 
 </head>
 <body>
     <main>
         <div class="container">
             <h1>Contador</h1>
-            <span id="value">0</span>
+            <span id="value" class="num">0</span>
             <div class="btn-container">
+                <button class="btn btn-decrease-15">Decrease -15</button>
                 <button class="btn btn-decrease">Decrease</button>
                 <button class="btn btn-reset">Reset</button>
                 <button class="btn btn-increase">Increase</button>
+                <button class="btn btn-increase+15">Increase +15</button>
 
+                <button class="btn btn-start">Start</button>
+                <br><br>
+                <button class="btn btn-super">Super Audio *cries</button>
+
+                <br><br><br>
+                <p id="text-super" style="display: none;">OUÇA 10min de audio!!! sem botão stop<br><br>Shaka! Shaka! não se esqueça, a morte não é o fim de tudo, todos aqueles que nasceram nesta terra, mas que depois foram chamados de santos, conseguiram superar a morte...</p>
             </div>
+            
         </div>
     </main>
     <script src="js1.js"></script>

@@ -1,0 +1,42 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.btn-container{
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+
+h1{
+    font-size: 3.5rem;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+}
+h2{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+}
+h3{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+}
+
+p{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+    text-align: justify;
+}
+
+
+.num{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+    font-size: 2.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.btn{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+    font-size: 0.8rem;
+}
