@@ -20,7 +20,7 @@ function UpdateColor(){
         value.style.color = "red";
     }
     else{
-        value.style.color = "#222";
+        value.style.color = "white";
     }
 }
 
