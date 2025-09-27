@@ -91,3 +91,23 @@ btns.forEach(function(btn){
         value.textContent = count;
     })
 })
+
+
+
+
+
+// relogio
+
+const updateTime = () =>{
+    const now = date = new Date();
+    const hours = now.getHours().toString().padStart(2, "0")
+    const minutes = now.getMinutes().toString().padStart(2, "0")
+    const seconds = now.getSeconds().toString().padStart(2, "0")
+
+    const timeElement = document.querySelector(".time");
+    timeElement.textContent = `${hours} : ${minutes} : ${seconds}`;
+
+    setInterval(updateTime, 1000);
+}
+
+window.addEventListener("load", updateTime)
